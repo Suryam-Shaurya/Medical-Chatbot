@@ -1,10 +1,25 @@
 # Chatbot with Streamlit Frontend
 
-This is a simple chatbot application using Streamlit for the frontend and a language model for generating responses.
+This is a Medical chatbot application using Streamlit for the frontend and LLaMA3 8b for generating responses.
 
-## Setup
+## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://your-repo-url.git
-   cd chatbot
+    ```sh
+    git clone https://github.com/Suryam-Shaurya/Medical-Chatbot
+    cd Medical-Chatbot
+    ```
+
+2. Create a virtual environment and install dependencies:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+Run the app:
+```sh
+streamlit run app.py
+
